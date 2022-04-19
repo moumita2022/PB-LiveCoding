@@ -32,9 +32,11 @@ console.log(++a); //3
 //urany operator , binary operator
 // 2s areb called operand  + is called operator
 // 3 + 2    
+
 // binary operator need  two operands , + - * ** %
 
-//unary operator need only one operand: ++ -- typeof
+//unary operators need only one operand: ++ -- typeof
+
 console.log(typeof "hello"); 
 console.log(typeof true);
 console.log(typeof 45);
