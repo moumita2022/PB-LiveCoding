@@ -1,11 +1,11 @@
 // in js we have 3 kinds of operators
 
-// arthematic operator
+// Arithmetical operator
 // conditional operator 
 // logical operators
 
-// arthematic operator 
-// + - * / % modulos ** exponential 
+// Arithmetical operator 
+// + - * / % modulus ** exponentiation 
  
 /* console.log(2+2); // 4
 console.log(3-1); // 2

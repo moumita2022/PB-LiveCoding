@@ -1,4 +1,4 @@
-// data : information / anything which is meaningfull to machine is called data
+// data : information / anything which is meaningful to machine is called data
 
 // data types in JS
 // there are two main type in js
