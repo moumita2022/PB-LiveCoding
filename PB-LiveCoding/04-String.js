@@ -10,6 +10,11 @@ console.log(2 + 3);
 console.log("My name is "+ firstName + " and I am " + age  +  " years old ")
 
 //coercion
-/* console.log("2" + 3);
-console.log(2 + "3"); */
+// implicit (automative)
+console.log("2" + 3);
+console.log(2 + "3");
+
+// expilicit (manual)
+console.log(Number("23"))
+console.log(String(34))
 
