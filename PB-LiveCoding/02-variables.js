@@ -29,6 +29,10 @@ let _name= "Ali";
 let name = "Ali"; */
 
 
+//you cannot use js reserved keyword as a variable name
+// let const function class .... 
+
+
 // defining a varaible  // = assignment operator // value
 let lastName = "Smith"; // it will not allow you to redefine your varaible but you can reassign value to it.
 let firstName; //undefined
