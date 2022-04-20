@@ -53,12 +53,8 @@ console.log(Number(stringNum)); */
 
 
 //// conditional operator 
-<<<<<<< HEAD
-// < , > ,<=, >=, != ,  == abstract comparison ,!== , === strict comparison
-=======
-// < , > ,<=, >=, == abstract comparison , === strict comparison
->>>>>>> abae8a1b75325f629ee757dfdbe505789ae55269
 
+// < , > ,<=, >=, != ,  == abstract comparison ,!== , === strict comparison
 /* console.log(1<2); //true
 console.log(1>2); //false
 
@@ -66,10 +62,7 @@ console.log(2<=2); //true
 console.log(3>=3); //true
 console.log(3 == "3"); //javascript willn't check datatype
 console.log(3 === "3"); //false ,javascript will check datatype */
-<<<<<<< HEAD
 console.log("hello" !== "World") // true
-=======
->>>>>>> abae8a1b75325f629ee757dfdbe505789ae55269
 
 let sum = 2+5; // statement
 //statement : instruction to javascipt to do something
@@ -83,11 +76,9 @@ let sum = 2+5; // statement
 
 
 //logical operators
-<<<<<<< HEAD
+
 // && AND * ,  || OR + , ! NOT
-=======
-// && AND * ,  || OR +
->>>>>>> abae8a1b75325f629ee757dfdbe505789ae55269
+
 // && 0 1 => 0, 
 //    1 0 => 0,
 //    1 1 => 1,
@@ -96,11 +87,8 @@ let sum = 2+5; // statement
 console.log(1<2 && 4>5 && 2>3)   // false  => 1 * 0 * 0 = 0
 
 console.log(1<2 || 4>5 || 2>3)   // true  => 1 + 0 + 0 = 1
-
-<<<<<<< HEAD
 console.log(!true) //false
-=======
->>>>>>> abae8a1b75325f629ee757dfdbe505789ae55269
+
 
 
 /* const experience = 1; 
