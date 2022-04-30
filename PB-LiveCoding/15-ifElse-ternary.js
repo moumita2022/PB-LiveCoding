@@ -1,7 +1,7 @@
 // if - eLse
 
 // if(condition){ // condition is true ,it will execute this block}
-// else { if contion is false ,then this block will execute}
+// else { if condition is false ,then this block will execute}
 
 const theme = "Dark";
 
@@ -48,6 +48,10 @@ switch(month){
     case 5:
         console.log("this is month May");
         break;
+     // ...
+     // ...
+    default:
+          console.log("this is month December");
 }
 
 
