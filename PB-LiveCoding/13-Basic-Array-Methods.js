@@ -2,11 +2,11 @@
 
 const cities = ["Berlin","Hamburg","Frankfurt","Dresden","Bonn"];
 
-// push and pop method to remove and add item in then end array 
+// push method will always add item in the end of your array. 
 cities.push("Dusseldorf")  //add new item in your array (in the end)
 console.log(cities)
 
-// pop will always delete last item from your array
+// pop method will always delete last item from your array
 cities.pop();
 console.log(cities)
 
@@ -20,10 +20,10 @@ console.log(cities)
 cities.unshift("Berlin")
 console.log(cities)
 
-//includes method (check whether that item exist in the array)
+//includes method (check whether item exist in your array)
 console.log(cities.includes("Berlin"))
 
-//reverse method  (reverse order of your items inside your array)
+//reverse method  (reverse order of items in your array)
 cities.reverse()
 console.log(cities)
 
@@ -36,7 +36,7 @@ console.table(cities)
 // slice (extract a part of your array)
 console.log(cities.slice(2,-2))
 
-//sort ,method them ascending or descending
+//sort method ,sort items in array
 console.log(cities.sort())
 
 
@@ -44,5 +44,5 @@ console.log(cities.sort())
 console.log(cities.join("$")) // join all item using that separator
 
 
-//indexOf
+//indexOf method returns index of item in your array.
 console.log(cities.indexOf("Berlin"))
