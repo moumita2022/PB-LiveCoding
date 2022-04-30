@@ -1,6 +1,6 @@
 let number = 2 ;
 
-number++; // pre increment 
+number++; // post increment 
 
 number =number +  1; 
 number += 1;  //same as number =number +  1; 
