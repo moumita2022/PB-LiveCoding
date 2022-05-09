@@ -21,7 +21,7 @@ console.log(studentData[1])
 
 
 
-//use contructor 
+//use Object contructor 
 // const user = new Object()
 // user.name = "John"; //property inside object
 // user.age = 23;
@@ -43,6 +43,8 @@ const user = {
     skills:["html","css","js"],
     ["first name"]: "smith"
 } 
+
+/* user.profession="student" */
 
 /* console.log(user.address.location.long) */
 
