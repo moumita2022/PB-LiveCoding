@@ -1,5 +1,5 @@
 // Shallow clone VS Deep Clone
-
+const _ = require("lodash")
 // const student = {
 //     name :"Mike",
 //     age:26
@@ -24,21 +24,27 @@ const student = {
         }
     },
     sayhi: function(){
-        console.log("Hello")
+        console.log(`student name is ${this.name} ,he is ${this.age} years old`)
     }
 }
 // Deep clone
 // make copy or merge differnce objects
 /* const copyStudent  = Object.assign({}, student) */
  
-const newCopy = JSON.stringify(student) // convert object into string
-const deepCopy = JSON.parse(newCopy) // convert back string into object
+// const newCopy = JSON.stringify(student) // convert object into string
+// const deepCopy = JSON.parse(newCopy) // convert back string into object
 
+// use lodash library to make a deep clone
+student.sayhi()
+const deepCopy = _.cloneDeep(student)
+
+deepCopy.name ="Robin"
 deepCopy.age = 30;
+deepCopy.sayhi()
 deepCopy.address.city = "Hamburg"
 
-console.log(deepCopy)
-console.log(student)
+// console.log(deepCopy)
+// console.log(student)
 // copyStudent.age = 30;
 // copyStudent.address.city="Hamburg"
 
