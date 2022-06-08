@@ -34,6 +34,7 @@
 
 
 function secureFunction(){
+    //lexical environment starting.....for inner function
 
  let count = 0;
 
@@ -43,6 +44,8 @@ function secureFunction(){
         console.log(count)
     }
   /*   count = 10; */
+
+   //lexical environment ending..... for inner function
     return countClick;
     // returning function along with lexical scoped variable
     // memorizing variable reference
