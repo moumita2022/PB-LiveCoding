@@ -138,7 +138,7 @@ let frequency = randomNumbers.reduce((acc,item)=>{
 //Array.filter((item,index.array)=>{}, contextObject)
 
 
-
+/* 
 let people = [
     { name: "John", age: 21 },
     { name: "Oliver", age: 55 },
@@ -160,4 +160,27 @@ let people = [
 
   let outputValue = people.filter(function(item){
     return item.age>this.oldPeople}, contextObject)
-  console.log(outputValue)
+  console.log(outputValue) */
+
+
+
+  //Array.every (returns boolean value true if all item pass test)
+  //Array.some ( returns boolean true if any of the item pass that test)
+  //Array.sort 
+  //Array.startWith
+  //Array.endWith
+  
+
+  let people = [
+    { name: "John", age: 21, class:"FBW-E04-1" },
+    { name: "Oliver", age: 55 , class:"FBW-E04-2"},
+    { name: "Michael", age: 55 , class:"FBW-E04-1"},
+    { name: "Dwight", age: 19, class:"FBW-E04-2" },
+    { name: "Oscar", age: 21 , class:"FBW-E04-1"},
+    { name: "Kevin", age: 55 , class:"FBW-E04-3"},
+  ];
+
+  //check if all people we have in this array having age greater than 18
+  let resultOutput = people.every(item=>item.age>18) 
+
+  console.log(resultOutput)
