@@ -42,7 +42,7 @@ console.log(window)
 //prompt => method is used to get information from the user
 
 let name = window.prompt("please enter ypur name here !")
-//if user clicks okay we get information from user
+// user provides information and clicks okay
 // in the case user clicks on cancel we get null back 
 /* window.alert(name) */
 
@@ -78,3 +78,4 @@ console.log("line 64")
 // Math
 // Array
 // REGEX
+// ...
