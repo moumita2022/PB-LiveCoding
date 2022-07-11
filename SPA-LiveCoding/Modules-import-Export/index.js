@@ -14,12 +14,19 @@ number2.addEventListener("input", ()=>{
 })
 
 
+// AMD(Asynchronous Module Definition) ancient module system created by require.js
+// CommonJS module system use in nodejs
+/* const prompt = require("prompt-sync")  */ 
 
+//UMD universal module system 
+// ES Module System 
+/* import sum from "./math.js" */
 
 // directive keyword 
 // import and export
 
 // readiablity
+// reuseability
 // easy debugging
 //TOP-level-scope
 //Isolated (independent)
