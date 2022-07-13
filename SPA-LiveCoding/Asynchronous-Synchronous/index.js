@@ -44,3 +44,5 @@ console.log("line ---- 29")
 console.log("end ----")
 
 //compiler will execute all synchronous code first and then execute your asynchronous
+
+
