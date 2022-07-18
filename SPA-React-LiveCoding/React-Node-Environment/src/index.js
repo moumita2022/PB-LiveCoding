@@ -4,7 +4,7 @@
 // "scripts":{ "start":"react-scripts start"}
 // "npm start" run react development server
 
-import ReactDOM from "react-dom"
+import ReactDOM from "react-dom/client"
 import HelloWorld from "./app.js"
 
 ReactDOM.createRoot(document.getElementById("root")).render(<HelloWorld/>)
