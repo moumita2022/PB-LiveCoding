@@ -1,0 +1,11 @@
+.active{
+    background-color: gold;
+    color: black;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid;
+}
