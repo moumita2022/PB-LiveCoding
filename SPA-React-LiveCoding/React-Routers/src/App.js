@@ -39,6 +39,7 @@ function App() {
   <Route path="/" element={<Home/>} />
   <Route path="about" element={<About/>}>
     <Route path="more" element={<h1>More info about us</h1>}  />
+    <Route path="me" element={<h2>About me</h2>} />
   </Route>
   
   <Route path="portfolio" element={<Portfolio/>}  />
