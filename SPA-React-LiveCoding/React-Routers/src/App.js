@@ -11,9 +11,10 @@ import Home from "./components/Home"
 import About from "./components/About"
 import Portfolio from "./components/Portfolio"
 import ContactUs from "./components/ContactUs"
-import { BrowserRouter ,Routes ,Route,NavLink } from "react-router-dom"
+import { BrowserRouter ,Routes ,Route} from "react-router-dom"
 import PageNottFound from './components/PageNottFound';
 import "./App.css"
+import Header from './components/Header';
 function App() {
   /* const [page,setPage]=useState("home") */
   return (
@@ -32,18 +33,16 @@ function App() {
     {page==="contactus" && <ContactUs/>} */}
 
 
-<ul>
-        <li><NavLink to="/">Home</NavLink></li>
-        <li><NavLink to="/about">About</NavLink></li>
-        <li><NavLink to="/portfolio">Portfolio</NavLink></li>
-        <li><NavLink to="/contactus">Contact Us</NavLink></li>
-      </ul>
+<Header/>
 
 <Routes>
   <Route path="/" element={<Home/>} />
-  <Route path="/about" element={<About/>} />
-  <Route path="/portfolio" element={<Portfolio/>}  />
-  <Route path="/contactus" element={<ContactUs/>}  />
+  <Route path="about" element={<About/>}>
+    <Route path="more" element={<h1>More info about us</h1>}  />
+  </Route>
+  
+  <Route path="portfolio" element={<Portfolio/>}  />
+  <Route path="contactus" element={<ContactUs/>}  />
   <Route path="*" element={<PageNottFound/>}/>
 </Routes>
 
